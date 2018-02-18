@@ -1,0 +1,200 @@
+/*NAV
+-----------------------------------------------------------------------------*/
+div.subnav ul.ul_last {
+    border: none !important;
+}
+
+nav {
+    height: 30px !important;
+    position: relative !important;
+    z-index: 0 !important;
+    padding: 0 6px !important;
+    font:  Arial, Tahoma, Verdana, sans-serif !important;
+	
+	font-weight:none;
+    margin: 0 !important;
+    display: block;
+	width:99%;
+}
+
+.navmenu {
+    height: 35px !important;
+}
+
+.nav_cor_l {
+    width: 6px !important;
+    height: 35px !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+}
+
+.nav_cor_r {
+    width: 6px !important;
+    height: 35px !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+}
+
+nav ul { margin: 0 !important; padding: 0 !important; }
+
+nav ul li {
+    height: 30px !important;
+    display: block !important;
+    list-style: none !important;
+    float: left !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+nav ul li.last {
+    background: none !important;
+}
+
+nav ul li a {
+    
+    line-height: 15px !important;
+   
+    display: block !important;
+    height: 30px !important;
+    padding: 5px 5px 0 !important;
+    text-align: center !important;
+    color: #fff !important;
+    text-decoration: none !important;
+    border: none !important;
+}
+
+nav ul li a:hover {
+    text-shadow: none !important;
+}
+
+nav ul li.clean {
+    background: none !important;
+}
+
+nav li:hover,
+nav li.last:hover {
+    background: url(img/nav_hover_cor.png) right -5px no-repeat !important;
+}
+
+nav li:hover a {
+    text-shadow: none !important;
+    margin: 0 3px !important;
+    background: url(img/nav_hover_bg.png) left 4px no-repeat !important;
+}
+
+
+/*SUBNAV
+------------------------------------*/
+.subnav {
+    position: absolute !important;
+    padding: 15px 0px 30px !important;
+    z-index: 20 !important;
+   
+    background: #fff !important;
+    border-radius: 0 0px 5px 5px !important;
+    -webkit-border-radius: 0 0px 5px 5px !important;
+    -moz-border-radius: 0 0px 5px 5px !important;
+    box-shadow: 0 3px 3px #999 !important;
+    display: none !important;
+}
+
+nav li.hover .subnav {
+    display: block !important;
+}
+
+.nav_tv .subnav {
+    left: 0% !important;
+}
+
+.nav_tech .subnav {
+    left: 15% !important;
+}
+
+.nav_tech_mini .subnav {
+    left: 0% !important;
+}
+
+.nav_tech_int .subnav {
+    left: 30% !important;
+}
+
+.nav_comp .subnav {
+    left: 30% !important;
+}
+
+.nav_video .subnav {
+    right: 0% !important;
+}
+
+.nav_phone .subnav {
+    right: 0% !important;
+}
+
+.nav_game .subnav {
+    right: 0% !important;
+}
+
+nav .subnav li {
+    height: auto !important;
+    background: #fff !important;
+    display: block !important;
+    float: none !important;
+}
+
+nav .subnav ul {
+    width: auto !important;
+    padding: 0 20px 0 20px !important;
+    float: left !important;
+    border-right: 1px solid #b2d7ee !important;
+}
+
+nav .subnav ul.last {
+    border: none !important;
+}
+
+nav .subnav li ul {
+    margin: -2px 0 4px !important;
+    width: auto !important;
+    float: none !important;
+    border: none !important;
+    padding: 0 20px 0 0 !important;
+}
+
+nav .subnav li li {
+    padding-left: 10px !important;
+    background: #fff !important;
+}
+
+nav .subnav li a {
+    font-size: 12px !important;
+    line-height: 26px !important;
+    width: auto !important;
+    height: auto !important;
+    display: inline !important;
+    text-align: left !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-weight: normal !important;
+    text-shadow: none !important;
+    text-decoration: none !important;
+    border-bottom-style: solid !important;
+    border-bottom-width: 1px !important;
+    background: none !important;
+}
+
+nav .subnav li li a {
+    line-height: 18px !important;
+}
+
+nav .subnav li a:hover {
+    border: none !important;
+    background: none !important;
+}
+
+nav .subnav .item-selected > a {
+	color: black !important;
+}

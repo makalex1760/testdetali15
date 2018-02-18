@@ -1,0 +1,28 @@
+.catalog-price {
+	 color:red;
+}
+ .c {
+  background-color:#088CD7;
+    display: inline-block;
+    padding: 7px 15px; /* Поля */
+    text-decoration: none; /* Убираем подчёркивание */
+    color: #fff; /* Цвет текста */
+	font-weight:bold
+  }
+   .c:hover {
+   
+   
+    color: #ccc;
+   }
+  #foto_el{
+	  margin:0px 60px 10px 30px;
+	  background-color:#fff;
+	  padding:40px 20px;
+	  float:left;
+	  border:2px solid #DDE4EC;
+  }
+ .prop2{ font-size:90%; line-height:25px}
+ .add2basket{background:url(/images/basket.png)no-repeat; padding-left:40px}
+ #back1{padding:10px 20px; border: 2px solid #02327E; color:#02327E; font-weight:bold}
+ 
+	  

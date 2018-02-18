@@ -1,0 +1,37 @@
+.search_aopen .bx-searchtitle .bx-input-group .bx-form-control {
+	
+	background-image: url("images/search_lupe.png");
+	background-repeat: no-repeat;
+	display: table-cell;
+
+	background-position: left;
+	
+	float: left;
+	width: 350px;
+
+	display: block;
+	
+	
+	font-size: 14px;
+
+	color: #bbb;
+	
+	border: 1px solid #edc317;
+	padding:7px 7px 6px 35px;
+	
+}
+
+
+.search_aopen{
+
+margin: 10px 5px 10px 15px;
+float:left;
+}
+.search_aopen .btn-default{
+color:#fff;
+padding:8px;
+font-weight:bold;
+border:none;
+background-color:#2954b0;
+  border-radius: 0px;}
+.search_aopen .bx-input-group{text-align:left;}

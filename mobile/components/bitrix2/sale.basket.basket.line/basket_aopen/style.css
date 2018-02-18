@@ -1,0 +1,33 @@
+.korzina{ background-color:#fff; margin-top:10px; margin-right:20px;}
+.korzina .bx-basket {}
+.korzina .bx-basket-block {
+	float:left;
+	font-size: 12px;
+	
+	white-space: nowrap;
+	position: relative;
+	padding-left: 35px;
+	padding-top: 8px;
+}
+.korzina .bx-basket-block>.fa {
+	
+	width: 20px;
+	position: absolute;
+	left: 10px;
+	top: 6px;
+}
+.korzina .bx-basket-block a {
+	color: #039BE5;
+	
+	margin-right: 20px;
+}
+.korzina .bx-basket-block a:hover {
+	text-decoration: none;
+	border-bottom-color: transparent;
+}
+.korzina .symbol{
+	
+	vertical-align: middle;
+}
+.korzina .fa{font-size:20px; color:#2954b0;}
+

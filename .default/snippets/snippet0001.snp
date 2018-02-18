@@ -1,0 +1,125 @@
+ 
+<table cellspacing="0" cellpadding="0" border="0" align="center" width="92%"> 
+  <tbody> 
+    <tr><td><?$APPLICATION->IncludeComponent(
+	"bitrix:catalog.element",
+	"zena",
+	Array(
+		"IBLOCK_TYPE" => "catalog",
+		"IBLOCK_ID" => "6",
+		"ELEMENT_ID" => $_REQUEST["ID"],
+		"ELEMENT_CODE" => "",
+		"SECTION_ID" => $_REQUEST["SECTION_ID"],
+		"SECTION_CODE" => "",
+		"SECTION_URL" => "/katalog/gaz/01_gas_engine/index.php?SECTION_ID=#SECTION_ID#",
+		"DETAIL_URL" => "/katalog/gaz/01_gas_engine/detail.php?ID=#ID#",
+		"BASKET_URL" => "/account/cart/",
+		"ACTION_VARIABLE" => "action",
+		"PRODUCT_ID_VARIABLE" => "id",
+		"PRODUCT_QUANTITY_VARIABLE" => "quantity",
+		"PRODUCT_PROPS_VARIABLE" => "prop",
+		"SECTION_ID_VARIABLE" => "SECTION_ID",
+		"META_KEYWORDS" => "-",
+		"META_DESCRIPTION" => "-",
+		"BROWSER_TITLE" => "NAME",
+		"SET_TITLE" => "Y",
+		"SET_STATUS_404" => "N",
+		"ADD_SECTIONS_CHAIN" => "Y",
+		"PROPERTY_CODE" => array("KOD_TOVAR", "BRAND", "ARTIKUL", "NALICHIE", "ED_IZM", "ZAVOD_NOMER", "PRICE_BASE"),
+		"PRICE_CODE" => array(),
+		"USE_PRICE_COUNT" => "N",
+		"SHOW_PRICE_COUNT" => "1",
+		"PRICE_VAT_INCLUDE" => "N",
+		"PRICE_VAT_SHOW_VALUE" => "N",
+		"PRODUCT_PROPERTIES" => array(),
+		"USE_PRODUCT_QUANTITY" => "Y",
+		"LINK_IBLOCK_TYPE" => "",
+		"LINK_IBLOCK_ID" => "",
+		"LINK_PROPERTY_SID" => "",
+		"LINK_ELEMENTS_URL" => "link.php?PARENT_ELEMENT_ID=#ELEMENT_ID#",
+		"CACHE_TYPE" => "N",
+		"CACHE_TIME" => "36000000",
+		"CACHE_GROUPS" => "N"
+	)
+);?> 
+        <br />
+       <?$APPLICATION->IncludeComponent(
+	"yenisite:catalog.accessories",
+	".default",
+	Array(		
+	"ELEMENT_ID" => $_REQUEST["ID"],
+	"IBLOCK_TYPE" => "autocat",
+	"IBLOCK_ID" => "287",
+	"PROPERTY_CODE" => "ARTIKUL",
+	"FILTER_NAME" => "arrFilter777",
+	"CACHE_TYPE" => "N",
+	"CACHE_TIME" => "3600"
+	),
+	false
+);?> 
+        <br />
+       <font color="#993366" size="2"><strong>Аналогичный товар:</strong></font> 
+        <br />
+       <?$APPLICATION->IncludeComponent(
+	"bitrix:catalog.section",
+	"list_ZENA",
+	Array(
+		"AJAX_MODE" => "N",
+		"IBLOCK_TYPE" => "catalog",
+		"IBLOCK_ID" => "6",
+		"SECTION_ID" => $_REQUEST["SECTION_ID"],
+		"SECTION_CODE" => "",
+		"SECTION_USER_FIELDS" => array(),
+		"ELEMENT_SORT_FIELD" => "name",
+		"ELEMENT_SORT_ORDER" => "asc",
+		"FILTER_NAME" => "arrFilter777",
+		"INCLUDE_SUBSECTIONS" => "Y",
+		"SHOW_ALL_WO_SECTION" => "Y",
+		"SECTION_URL" => "/katalog/gaz/01_gas_engine/index.php?SECTION_ID=#SECTION_ID#",
+		"DETAIL_URL" => "/katalog/gaz/01_gas_engine/detail.php?ID=#ID#",
+		"BASKET_URL" => "/account/cart/",
+		"ACTION_VARIABLE" => "action",
+		"PRODUCT_ID_VARIABLE" => "id",
+		"PRODUCT_QUANTITY_VARIABLE" => "quantity",
+		"PRODUCT_PROPS_VARIABLE" => "prop",
+		"SECTION_ID_VARIABLE" => "SECTION_ID",
+		"META_KEYWORDS" => "-",
+		"META_DESCRIPTION" => "-",
+		"BROWSER_TITLE" => "-",
+		"ADD_SECTIONS_CHAIN" => "N",
+		"DISPLAY_COMPARE" => "N",
+		"SET_TITLE" => "N",
+		"SET_STATUS_404" => "N",
+		"PAGE_ELEMENT_COUNT" => "30",
+		"LINE_ELEMENT_COUNT" => "3",
+		"PROPERTY_CODE" => array("KOD_TOVAR", "BRAND", "ARTIKUL", "NALICHIE", "PRICE_BASE"),
+		"PRICE_CODE" => array(),
+		"USE_PRICE_COUNT" => "N",
+		"SHOW_PRICE_COUNT" => "1",
+		"PRICE_VAT_INCLUDE" => "Y",
+		"PRODUCT_PROPERTIES" => array(),
+		"USE_PRODUCT_QUANTITY" => "N",
+		"CACHE_TYPE" => "N",
+		"CACHE_TIME" => "36000000",
+		"CACHE_NOTES" => "",
+		"CACHE_FILTER" => "N",
+		"CACHE_GROUPS" => "N",
+		"DISPLAY_TOP_PAGER" => "N",
+		"DISPLAY_BOTTOM_PAGER" => "Y",
+		"PAGER_TITLE" => "Автозапчасти",
+		"PAGER_SHOW_ALWAYS" => "Y",
+		"PAGER_TEMPLATE" => "orange",
+		"PAGER_DESC_NUMBERING" => "N",
+		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+		"PAGER_SHOW_ALL" => "N",
+		"AJAX_OPTION_JUMP" => "N",
+		"AJAX_OPTION_STYLE" => "N",
+		"AJAX_OPTION_HISTORY" => "N",
+		"AJAX_OPTION_ADDITIONAL" => ""
+	)
+);?> </td></tr>
+   </tbody>
+ </table>
+ 
+<br />
+ 

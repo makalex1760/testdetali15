@@ -1,0 +1,1 @@
+<?$arTemplate = array("NAME"=>"Шаблон для manager", "DESCRIPTION"=>"Шаблон для manager. на базе каталога.");?>

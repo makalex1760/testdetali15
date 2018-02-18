@@ -1,0 +1,43 @@
+nav .navmenu {
+    background: url(img/pink_nav_bg.png) top left repeat-x !important;
+}
+
+.nav_cor_l {
+    background: url(img/pink_nav_corners.png) top left no-repeat !important;
+}
+
+.nav_cor_r {
+    background: url(img/pink_nav_corners.png) -6px 0 no-repeat !important;
+}
+
+nav ul li {
+    background: url(img/pink_nav_sep.png) center right no-repeat !important;
+}
+
+nav ul li a {
+    color: #fff !important;
+    text-shadow: 0 -1px 1px #3c9de1 !important;
+}
+
+nav li:hover a, nav li a:hover {
+    color: #f15182 !important;
+}
+
+nav .subnav li a {
+    color: #3699de !important;
+    border-bottom-color: #8dc5ec !important;
+}
+
+nav .subnav li a:hover {
+    color: #f15182 !important;
+    border-bottom: 1px solid #f79db8 !important;
+}
+
+nav .subnav li li a {
+    color: #f15182 !important;
+    border-bottom-color: #f79db8;
+}
+
+nav .subnav li.hover a:hover { background: #e0f2ff !important; border: none !important; }
+
+nav .subnav li li li:hover { background: none !important; }

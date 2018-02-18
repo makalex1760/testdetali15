@@ -1,0 +1,61 @@
+/* catalog.section */
+.bx_red.bx-section-desc{
+	border-left-color:#E22B2B;
+}
+.bx_catalog_list_home.bx_red .bx_bt_button  				{
+	display: inline-block;
+margin: 0 5px;
+padding: 10px 15px;
+font-size: 18px;
+border:0px;
+appearance: none;
+box-shadow: none;
+border-radius: 0;
+color:#fff;
+cursor:pointer;
+background-color:red;
+
+text-decoration:none;
+}
+.bx_catalog_list_home.bx_red .bx_bt_button:hover  		{
+
+}
+}
+.bx_catalog_list_home.bx_red .bx_bt_button:active  		{
+
+}
+
+/* scu_detail_size */
+.bx_catalog_list_home.bx_red .bx_item_detail_size ul li .cnt  				{border: 1px solid #d35841}
+.bx_catalog_list_home.bx_red .bx_item_detail_size ul li:hover .cnt  			{border: 1px solid #a9331c}
+.bx_catalog_list_home.bx_red .bx_item_detail_size ul li:active .cnt,
+.bx_catalog_list_home.bx_red .bx_item_detail_size ul li.bx_active .cnt  		{border: 2px solid #a9331c}
+
+.bx-retina .bx_catalog_list_home.bx_red .bx_item_detail_size ul li.bx_active .cnt{
+	-webkit-border-image: url(images/x2border_active.png) 2 stretch;
+	-moz-border-image: url(images/x2border_active.png) 2 stretch;
+	-o-border-image: url(images/x2border_active.png) 2 stretch;
+	border-image: url(images/x2border_active.png) 2 fill stretch;
+}
+
+/* scu_detail_scu */
+.bx_catalog_list_home.bx_red .bx_item_detail_scu .bx_scu ul li .cnt  				 	{border: 1px solid #d35841}
+.bx_catalog_list_home.bx_red .bx_item_detail_scu .bx_scu ul li:hover .cnt				{border: 1px solid #a9331c}
+.bx_catalog_list_home.bx_red .bx_item_detail_scu .bx_scu ul li:active .cnt,
+.bx_catalog_list_home.bx_red .bx_item_detail_scu .bx_scu ul li.bx_active .cnt			{border: 2px solid #a9331c}
+
+.bx-retina .bx_catalog_list_home.bx_red .bx_item_detail_scu .bx_scu ul li.bx_active .cnt{
+	-webkit-border-image: url(images/x2border_active.png) 2 stretch;
+	-moz-border-image: url(images/x2border_active.png) 2 stretch;
+	-o-border-image: url(images/x2border_active.png) 2 stretch;
+	border-image: url(images/x2border_active.png) 2 fill stretch;
+}
+.bx_catalog_item_price{
+font-size:20px;
+}
+.bx_catalog_item_title a{
+font-size:16px;
+}
+.nal{font-size:14px;}
+.bx_soc_comments_div.bx_important.bx_red .bx_bt_button  {
+font-weight:normal;}

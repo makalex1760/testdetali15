@@ -1,0 +1,105 @@
+</div>
+								
+<hr>
+
+ <?$APPLICATION->IncludeComponent(
+	"bitrix:catalog.section.list",
+	"tree_aopen",
+	Array(
+		"COMPONENT_TEMPLATE" => "tree_aopen",
+		"IBLOCK_TYPE" => "catalog",
+		"IBLOCK_ID" => "4",
+		"SECTION_ID" => $_REQUEST["SECTION_ID"],
+		"SECTION_CODE" => "",
+		"COUNT_ELEMENTS" => "N",
+		"TOP_DEPTH" => "2",
+		"SECTION_FIELDS" => array(0=>"",1=>"",),
+		"SECTION_USER_FIELDS" => array(0=>"",1=>"",),
+		"VIEW_MODE" => "TILE",
+		"SHOW_PARENT_NAME" => "Y",
+		"SECTION_URL" => "",
+		"CACHE_TYPE" => "A",
+		"CACHE_TIME" => "36000000",
+		"CACHE_GROUPS" => "Y",
+		"ADD_SECTIONS_CHAIN" => "Y",
+		"HIDE_SECTION_NAME" => "N"
+	)
+);?>
+ <hr>
+<footer id="foot_aopen">
+<div id="bottom_logo"><a href="http://auto-open.ru/"><img src="<?=SITE_TEMPLATE_PATH?>/images/auto-open_mainR11C1.png" width="237" height="124" alt=""/></a></div>
+<div id="soc_seti"><span>Следуйте за нами:</span><div class="footer_social_icon">
+						<?
+						$facebookLink = $APPLICATION->GetFileContent($_SERVER["DOCUMENT_ROOT"].SITE_DIR."include/socnet_facebook.php");
+						$twitterLink = $APPLICATION->GetFileContent($_SERVER["DOCUMENT_ROOT"].SITE_DIR."include/socnet_twitter.php");
+						$googlePlusLink = $APPLICATION->GetFileContent($_SERVER["DOCUMENT_ROOT"].SITE_DIR."include/socnet_google.php");
+						$vkLink = $APPLICATION->GetFileContent($_SERVER["DOCUMENT_ROOT"].SITE_DIR."include/socnet_vk.php");
+						?>
+						<ul>
+						<?if ($facebookLink):?>
+						<li class="fb"><?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/socnet_facebook.php"), false);?></li>
+						<?endif?>
+						<?if ($twitterLink):?>
+						<li class="tw"><?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/socnet_twitter.php"), false);?></li>
+						<?endif?>
+						<?if ($googlePlusLink):?>
+						<li class="gp"><?$APPLICATION->IncludeComponent(
+	"bitrix:main.include", 
+	".default", 
+	array(
+		"AREA_FILE_SHOW" => "file",
+		"PATH" => SITE_DIR."include/socnet_google.php",
+		"EDIT_TEMPLATE" => "standard.php"
+	),
+	false
+);?></li>
+						<?endif?>
+						<?if (LANGUAGE_ID=="ru" && $vkLink):?>
+						<li class="vk"><?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/socnet_vk.php"), false);?></li>
+						<?endif?>
+						</ul>
+					</div>
+					</div>
+					<div id="metrica_aopen">
+						<!-- Yandex.Metrika informer -->
+						<a href="https://metrika.yandex.ru/stat/?id=26877837&from=informer"
+						target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/26877837/3_0_FFFFFFFF_E7EBE6FF_0_pageviews"
+						style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:26877837,lang:'ru'});return false}catch(e){}"/></a>
+						<!-- /Yandex.Metrika informer -->
+					</div>
+						<!-- Yandex.Metrika counter -->
+						<script type="text/javascript">
+						(function (d, w, c) {
+							(w[c] = w[c] || []).push(function() {
+							try {
+							w.yaCounter26877837 = new Ya.Metrika({id:26877837,
+							webvisor:true,
+							clickmap:true,
+							trackLinks:true,
+							accurateTrackBounce:true});
+							} catch(e) { }
+						});
+
+						var n = d.getElementsByTagName("script")[0],
+						s = d.createElement("script"),
+						f = function () { n.parentNode.insertBefore(s, n); };
+						s.type = "text/javascript";
+						s.async = true;
+						s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+						if (w.opera == "[object Opera]") {
+						d.addEventListener("DOMContentLoaded", f, false);
+						} else { f(); }
+						})(document, window, "yandex_metrika_callbacks");
+						</script>
+						<noscript>
+						<div><img src="//mc.yandex.ru/watch/26877837" style="position:absolute; left:-9999px;" alt="" /></div>
+						</noscript>
+						<!-- /Yandex.Metrika counter -->
+
+<div id="copyright">© <a href="/">Магазин автозапчасти</a>&nbsp;<br/>на Открытом шоссе, 2015</div>
+</footer>
+							
+</div>
+</body>
+</html>

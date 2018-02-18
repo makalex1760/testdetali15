@@ -1,0 +1,93 @@
+div.menu-sitemap-tree
+{
+	font-size:110%;
+        text-decoration:bold;
+        color:#535353;
+		padding-top:10px;
+		background-color: #242b33;
+		
+}
+
+div.menu-sitemap-tree ul
+{ 
+	list-style-type: none;
+	margin: 0; 
+	padding: 0 ;
+}
+
+div.menu-sitemap-tree ul ul
+{
+	width: auto;
+	
+}
+
+div.menu-sitemap-tree li
+{
+	margin: 0 ;
+	padding:10px 0;
+}
+
+div.menu-sitemap-tree li li
+{
+	background-color:#475B74;
+	
+}
+div.menu-sitemap-tree li li li
+{
+	background-color:#57708F;
+	
+}
+div.menu-sitemap-tree li.closemenu ul
+{
+	display: none;
+}
+
+div.menu-sitemap-tree div.item-text
+{ 
+	background-image:url(images/page.png);
+	padding-left: 40px;
+	
+}
+div.menu-sitemap-tree a
+{
+	color:#fff; font-weight:bold
+}
+div.menu-sitemap-tree a.grey
+{
+	color:#ccc; 
+}
+/*Icons*/
+div.folder, div.page, div.u1, div.u2, div.u3, div.u4, div.u5, div.u6, div.u7, div.u8, div.u9
+{ float:left;
+	background-repeat:no-repeat;
+	width:18px;
+	height:18px;
+	
+}
+div.u4{margin-left:15px;padding-left:30px; cursor:pointer; background-image:url(images/akkum.png);}
+div.u2{margin-left:15px;padding-left:30px; cursor:pointer; background-image:url(images/dvig.png); }
+div.u7{height:25px;margin-left:15px;padding-left:30px; cursor:pointer; background-image:url(images/akses.png); }
+div.u5{margin-left:15px;padding-left:30px; cursor:pointer; background-image:url(images/maslo.png); }
+div.u6{margin-left:15px;padding-left:30px; cursor:pointer; background-image:url(images/himia.png); }
+div.u8{margin-left:15px;padding-left:30px; cursor:pointer; background-image:url(images/instr.png); }
+div.u3{margin-left:15px;padding-left:30px; cursor:pointer; background-image:url(images/modelavto.png); }
+div.u9{margin-left:15px;padding-left:30px; cursor:pointer; background-image:url(images/shin.png); }
+div.u1{margin-left:15px;padding-left:30px; cursor:pointer; background-image:url(images/zapgaz.png); }
+
+div.u4.red{margin-left:15px;padding-left:30px; cursor:pointer; background-image:url(images/akkum_.png); }
+div.u2.red{margin-left:15px;padding-left:30px; cursor:pointer; background-image:url(images/dvig_.png); }
+div.u7.red{height:25px;margin-left:15px;padding-left:30px; cursor:pointer; background-image:url(images/akses_.png); }
+div.u5.red{margin-left:15px;padding-left:30px; cursor:pointer; background-image:url(images/maslo_.png); }
+div.u6.red{margin-left:15px;padding-left:30px; cursor:pointer; background-image:url(images/himia_.png); }
+div.u8.red{margin-left:15px;padding-left:30px; cursor:pointer; background-image:url(images/instr_.png); }
+div.u3.red{margin-left:15px;padding-left:30px; cursor:pointer; background-image:url(images/modelavto_.png); }
+div.u9.red{margin-left:15px;padding-left:30px; cursor:pointer; background-image:url(images/shin_.png); }
+div.u1.red{margin-left:15px;padding-left:30px; cursor:pointer; background-image:url(images/zapgaz_.png); }
+
+
+
+div.folder{margin-left:20px;cursor:pointer; cursor: hand;background-image:url(images/folder_open.png);}
+div.menu-sitemap-tree li.closemenu div.folder{background-image:url(images/folder_close.png);}
+div.page{background-image:url(images/page.png);}
+.red{color:#ff0734}
+

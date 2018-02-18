@@ -1,0 +1,100 @@
+body{margin:0
+}
+#top_mob{height:36px;
+position:fixed;
+padding-top:5px
+
+}
+#top_mob {
+width:100%
+}
+#top_mob #menu_mob {
+	font-weight: 300;
+	float: left;
+	padding: 3px;
+	width: 10%;
+}
+#top_mob #catalog_mob {
+	
+	float: left;
+	
+}
+#top_mob #korzina_mob {
+	float: left;
+	width: 10%;
+	
+}
+
+.red{color:#070D7D;}
+.yellow{color:#FFE365;}
+.green{color:green;}
+.bg_red{background-color:#070D7D;}
+.bg_yellow{background-color:#FFE365;}
+.white{color:white}
+.white a{color:white}
+.undnone{text-decoration:none}
+.ur_down {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-position: 0px -20px;
+	background-image: url(images/controls.png);
+}
+a.but_table2 {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-image: url(images/controls.png);
+}
+.korzina_mobil{float:right;}
+
+.bx-basket-block a{
+margin-top:5px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-position: -20px 0px;
+	background-image: url(images/controls.png);
+	border:0
+}
+#w_memu{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-image: url(images/controls.png);
+	}
+#menu_mobil{float:left}
+#horizontal-multilevel-menu, #horizontal-multilevel-menu ul{
+background:none;
+}
+#catalog_mob a {
+font-size:23px;
+font-weight:bold;
+
+color:white
+}
+#catalog_mob{
+    width: 195px;
+    margin: 6px auto;
+}
+.tel_mob{}
+.prop_aopen_list li{
+font-size:70%;
+color:#aaa;
+}
+#copyright{
+width:200px;
+margin:0 auto;
+}
+.nalich{display:none}
+.search1{width:200px}
+.prop3{width:150px}
+.num3{width:30px}
+.price3{width:30px}
+.del3{width:30px}

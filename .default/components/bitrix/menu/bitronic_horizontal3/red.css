@@ -1,0 +1,46 @@
+nav .navmenu {
+    background: url(img/nav_bg_red.png) top left repeat-x !important;
+}
+
+.nav_cor_l {
+    background: url(img/nav_corners_red.png) top left no-repeat !important;
+}
+
+.nav_cor_r {
+    background: url(img/nav_corners_red.png) -6px 0 no-repeat !important;
+}
+
+nav ul li {
+    background: url(img/nav_sep_red.png) center right no-repeat !important;
+}
+
+nav ul li a {
+    text-shadow: 0 -1px 1px #cf2020 !important;
+}
+
+nav li:hover a {
+    color: #000 !important;
+}
+
+nav .subnav li a {
+    border-bottom-color: #959595 !important;
+    color: #000000 !important;
+}
+
+.slider_cat li a.count {
+    border-bottom-color: #959595 !important;
+}
+
+.slider_cat li.active a.count {
+    border-bottom-color: #ffc697 !important;
+}
+
+nav .subnav li li a {
+    color: #e00c0c !important;
+    border-bottom: 1px solid #f39e9e !important;
+}
+
+nav .subnav li li.hover a:hover {
+    background: #fff2e7 !important;
+    border: none !important;
+}

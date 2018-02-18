@@ -1,0 +1,23 @@
+
+.top_menu_aopen nav {
+	margin-top:-6px;  
+	margin-left: 50px;
+	float: left;
+	width: 320px;
+	height: 40px;
+	padding: 0px;
+}
+.top_menu_aopen  nav ul {
+	list-style: none;
+	line-height: 30px;
+}
+.top_menu_aopen  nav li {
+	float: left;
+	margin: 5px 22px 0 0;
+	line-height: 17px;
+}
+.top_menu_aopen  nav a {  font-size:14px; }
+.top_menu_aopen  nav a:hover  {
+	color: #000000;
+} 
+.top_menu_aopen  nav a.actived  { } 

@@ -1,0 +1,299 @@
+body {
+	font: 85%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	color: #333;
+}
+
+/*Font in table*/
+table
+{
+	font-size:95%;
+}
+
+/*Links*/
+a:link {color: #3d609a;}
+a:visited{color:#55728e;}
+a:active {color: #486DAA;}
+a:hover{color:#DD0000;}
+
+h1
+{
+	margin:0; padding:0;
+	font-size:120%;
+	margin-bottom:15px;
+	padding-bottom:5px;
+	padding-top:14px;
+	border-bottom:1px solid #CCCCCC
+}
+
+h2, h3
+{
+	font-size:120%;
+}
+
+h4, h5, h6
+{
+	font-size:110%;
+}
+code
+{
+	font-size:100%;
+	font-weight:normal;
+	display:block;
+	padding:1.5em 1em 1em 1em;
+	border-style:solid;
+	border-width:1px;
+	border-width:1px 0;
+	margin:1em 0;
+	background-color:#F5F5F5;
+	font-family:sans-serif;
+}
+#breadcrumb
+{
+
+}
+
+/*Navigation*/
+#breadcrumb a
+{
+	font-size:95%;
+	text-decoration:bold;
+	color:#535353;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl, li {
+	padding: 5;
+	margin: 0;
+}
+
+a img {
+	border: none;
+	padding: 5px;
+}
+
+.container {
+	width: 100%;
+	max-width: 980px;
+	min-width: 760px;
+	background-color: #FFF;
+	margin: 0 auto;
+}
+
+.header {
+}
+
+.sidebar1 {
+	float: left;
+	width: 20%;
+	background-color: #FFFFFF;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-top: 10px;
+	font-size: 85%;
+}
+.content {
+	width: 76%;
+	float: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 0;
+	margin-left: 15px;
+	margin-right: 5px;
+}
+.sidebar2 {
+	float: left;
+	width: 17%;
+	background-color: #FFFFFF;
+	text-align: center;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-bottom: 10px;
+	padding-left: 0;
+	margin-left: 5px;
+}
+
+
+/* ~~The footer ~~ */
+.footer {
+	padding: 10px 0;
+	background-color: #FFFFFF;
+	position: relative;
+	clear: both;
+}
+
+.clearfloat {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+#headlogo {
+	float: left;
+	width: 20%;
+	padding-bottom: 10px;
+	font-size: x-small;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+#headcenter {
+	padding: 10px 0;
+	width: 60%;
+	float: left;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #002056;
+}
+#headcontact {
+	float: left;
+	width: 19%;
+	background-color: #FFFFFF;
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 90%;
+	color: #002056;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	line-height: normal;
+}
+#headbasket {
+	border-bottom-color: #666;
+	text-align: right;
+	font-size: 90%;
+	padding-right: 10px;
+}
+#headmenu {
+	clear: left;
+	font-size: 65%;
+	
+}
+#footertop {
+	width: 99%;
+	border-top-width: thin;
+	border-top-style: double;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #999;
+	padding: 5px;
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 115%;
+}
+#footerleft {
+	width: 50%;
+	float: right;
+}
+#footerright {
+	width: 50%;
+}
+#avtozap {
+        font-size: 160%;
+	font-weight: bold;	
+}
+#phone {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 100%;
+	color: #002056;
+	font-weight: bold;
+}
+#catalog {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 120%;
+	color: #002056;
+	font-weight: bold;
+}
+#logopic {
+	margin-right: 200px;
+	height: 50px;
+	
+}
+
+small
+{
+	font-size:85%;
+}
+
+hr
+{
+	width:90%;
+	height: 1px;
+	border: medium none;
+	color: #eae213;
+	background-color: #d1d0d0;
+	margin:8px 0
+}
+
+/*Data table*/
+table.data-table
+{
+	border:1px solid #CECECE;
+	border-collapse:collapse;
+}
+
+/*Any cell*/
+table.data-table td
+{
+	border:1px solid #CECECE;
+	background-color:#FFFFFF;
+	color:#333;
+	padding:3px 5px;
+}
+
+/*Head cell*/
+table.data-table thead td, table.data-table th
+{
+	background-color:#E1E5ED;
+	text-align:left;
+	font-weight:normal;
+	background-image:none;
+	border:1px solid #CECECE;
+	padding:4px;
+	color:#333;
+}
+
+/*Body cell*/
+table.data-table tbody td
+{
+	background-color:#FFF;
+	background-image:none;
+	color:#333;
+}
+
+/*Foot cell*/
+table.data-table tfoot td
+{
+	background-color:#F1F3F6;
+	padding:4px;
+	color:#333;
+}
+
+/*Error & OK messages*/
+.errortext
+{
+	color:red;
+}
+
+.notetext
+{
+	color:green;
+}
+
+/* Used to draw a "star" near reqired field */
+.starrequired
+{
+	color:red;
+}
+#news {
+	margin: 5px;
+	padding: 5px;
+}
+#poloska {
+border-bottom: solid 3px #002056;
+	height: 10px;
+}

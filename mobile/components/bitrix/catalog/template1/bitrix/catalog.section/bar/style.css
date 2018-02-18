@@ -1,0 +1,20 @@
+.bx_catalog_list_home .bx_catalog_item_images_double {
+  
+  display: block;
+  padding-top: 135%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+.foto_tovar{
+width:200px; 
+height:200px;
+float:left;
+}
+.col2 {width:378px;float:left; padding:10px;}
+.col3{width:300px;float:left;padding:10px;}
+.bx_catalog_list_home .bx_catalog_item_container{width:900px;}
+.bx_catalog_item_title a{font-size:18px; color:#070D7D; text-decoration:underline;}
+

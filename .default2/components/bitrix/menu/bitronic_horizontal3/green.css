@@ -1,0 +1,38 @@
+nav .navmenu {
+    background: url(img/nav_bg.png) top left repeat-x !important;
+}
+
+.nav_cor_l {
+    background: url(img/nav_corners.png) top left no-repeat !important;
+}
+
+.nav_cor_r {
+    background: url(img/nav_corners.png) -6px 0 no-repeat !important;
+}
+
+nav ul li {
+    background: url(img/nav_sep.png) center right no-repeat !important;
+}
+
+nav ul li a {
+    text-shadow: 0 -1px 1px #2b8e00 !important;
+}
+
+nav li:hover a {
+    color: #017bc8 !important;
+}
+
+nav .subnav li a {
+    border-bottom-color: #8ed4ff !important;
+    color: #0088dd !important;
+}
+
+nav .subnav li li.hover a:hover {
+    background: #e5f3fc !important;
+    border: none !important;
+}
+
+nav .subnav li li a {
+    color: #35ab01 !important;
+    border-bottom: 1px solid #9ee380 !important;
+}

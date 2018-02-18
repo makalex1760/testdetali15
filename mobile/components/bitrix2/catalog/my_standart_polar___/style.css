@@ -1,0 +1,63 @@
+
+.sortBlock .sortWrap a.order_desc {
+    background-position: 5px -2px;
+}
+.sortBlock .sortWrap a.active {
+    background: url("/bitrix/templates/mlife_aszsuper_main_tt/components/mlife/asz.multicatalog/super/images/arr.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #2779d5;
+    padding-left: 20px;
+}
+.sortBlock .sortWrap a {
+    border: 1px solid #d3d3d3;
+    display: block;
+    float: left;
+    margin: 0 10px 0 0;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.grid{}
+.grid .bx_content_section{
+	margin-bottom: 15px;
+}
+.grid .bx_sidebar{
+	margin-bottom: 15px;
+}
+
+/* grid2x1 */
+.grid2x1{}
+.grid2x1 .bx_content_section{
+	float: left;
+	width: 66%;
+	margin-bottom: 15px;
+}
+.grid2x1 .bx_sidebar{
+	float: right;
+	width: 33%;
+	margin-bottom: 15px;
+	
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+@media (max-width:960px){
+	.grid2x1 .bx_sidebar{
+		padding-left: 4%;
+	}
+}
+@media (max-width:640px) {
+	.grid2x1 .bx_content_section,
+	.grid2x1 .bx_sidebar{
+		width: 100%;
+		float: none;
+	}
+	.grid2x1 .bx_sidebar{
+		padding-left: 3%;
+	}
+}
+@media (max-width:479px){
+	.grid2x1 .bx_sidebar{
+		padding-left: 1%;
+	}
+
+}

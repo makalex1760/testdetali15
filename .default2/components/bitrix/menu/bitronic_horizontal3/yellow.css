@@ -1,0 +1,47 @@
+.navmenu {
+    background: url(img/yellow_nav_bg.png) top left repeat-x !important;
+}
+
+.nav_cor_l {
+    background: url(img/yellow_nav_corners.png) top left no-repeat !important;
+}
+
+.nav_cor_r {
+    background: url(img/yellow_nav_corners.png) -6px 0 no-repeat !important;
+}
+
+nav ul li {
+    background: url(img/yellow_nav_sep.png) center right no-repeat !important;
+}
+
+nav ul li a {
+    text-shadow: 0 -1px 1px #e5ab00 !important;
+}
+
+nav li:hover a, nav li a:hover {
+    color: #5a5a5a !important;
+}
+
+nav .subnav li a {
+    border-bottom-color: #6fa4ec !important;
+    color: #005edd !important;
+}
+
+nav .subnav li a:hover {
+    border-bottom: 1px solid #a2a2a2 !important;
+    color: #5a5a5a !important;
+}
+
+nav .subnav li li a {
+    color: #5a5a5a !important;
+    border-bottom-color: #a2a2a2 !important;
+}
+
+nav .subnav li li.hover a:hover {
+    background: #f4f5f5 !important;
+    border: none !important;
+}
+
+nav .subnav li a:hover {
+    border: none !important;
+}

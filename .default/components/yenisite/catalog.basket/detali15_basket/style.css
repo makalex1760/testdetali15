@@ -1,0 +1,59 @@
+.big-basket { background: #fff; }
+
+.big-basket td{text-align: center;  vertical-align: middle; height: 40px;}
+
+
+.big-basket th.head{  color:#fff; background: #304E74; text-align: center; font-size: 95%;  font-weight: bold; padding:10px 30px;}
+.big-basket th.ch{  background: #3F618E;}
+
+
+.big-basket-fields {  width:100%;background: #fff; padding:10px;  }
+
+.big-basket-fields td.left{ width:40%; padding:10px 20px;vertical-align:top; font-weight:bold; font-size:95%}
+.big-basket-fields td.right{  padding:10px 20px}
+.big-basket .item td.prop3{ font-weight: bold; color:#164589;text-align: left  }
+.big-basket .item td.price3{ font-weight: bold; color:#164589  }
+.big-basket .item td.num3 input{ font-weight: bold; text-align:center  }
+.big-basket .item td.foto { padding:10px  }
+.dleft{width:100%; background-color:#fff; padding-top:10px}
+.ntSaveForms{border: 2px solid #ddd}
+.right label{font-size:85%}
+.right a { color:#188DDA; text-decoration:underline; font-weight:bold}
+.right {display:inline-block;margin-bottom:20px; margin-left: 20px;}
+.left{float:left; width:300px; margin-left: 20px;  font-weight:bold}
+#licence_show_button p{margin-left:20px;font-weight:100; color:#000; font-size:85%; margin-top:0px}
+.crm-webform-checkbox-icon-container{float:left}
+.tooltip:hover:after {
+  background: #2954b0;
+}
+.tooltip {
+    display: inline;
+    position: relative;
+	
+	text-align:center;
+
+}
+.tooltip:hover:before {
+    border: solid;
+   
+    border-width: 6px 6px 0px 6px;
+    top: 20px;
+    /*content: "";*/
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+}
+.tooltip:hover:after {
+   
+  display: inline;
+    border-radius: 5px;
+    top: 26px;
+    color: #fff;
+    content: attr(data-title);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 150px;
+}
+#beznal{display:none}

@@ -1,0 +1,48 @@
+nav .navmenu {
+    background: url(img/metal_nav_bg.png) top left repeat-x !important;
+}
+
+.nav_cor_l {
+    background: url(img/metal_nav_corners.png) top left no-repeat !important;
+}
+
+.nav_cor_r {
+    background: url(img/metal_nav_corners.png) -6px 0 no-repeat !important;
+}
+
+nav ul li {
+    background: url(img/metal_nav_sep.png) center right no-repeat !important;
+}
+
+nav ul li a {
+    color: #57758a !important;
+    text-shadow: 0 -1px 1px #fcfcfc !important;
+}
+
+nav li:hover a, nav li a:hover {
+    color: #383e46 !important;
+}
+
+nav .subnav li a {
+    color: #57758a !important;
+    border-bottom-color: #abbac4 !important;
+}
+
+nav .subnav li a:hover {
+    color: #383e46 !important;
+    border-bottom: 1px solid #8f9297 !important;
+}
+
+nav .subnav li li a {
+    color: #383e46 !important;
+    border-bottom-color: #888b90 !important;
+}
+
+nav .subnav li li.hover a:hover {
+    background: #eef1f3 !important;
+    border: none !important;
+}
+
+nav .subnav li a:hover {
+    border: none !important;
+}

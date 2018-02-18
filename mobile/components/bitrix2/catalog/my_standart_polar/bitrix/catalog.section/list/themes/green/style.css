@@ -1,0 +1,79 @@
+/* catalog.section */
+.bx_green.bx-section-desc{
+	border-left-color:#E22B2B;
+}
+.bx_catalog_list_home.bx_green .bx_bt_button  				{
+	display: inline-block;
+margin: 0 5px;
+padding: 5px 10px;
+font-size: 18px;
+border:0px;
+appearance: none;
+box-shadow: none;
+border-radius: 0;
+color:#fff;
+cursor:pointer;
+background-color:#2954b0;
+
+text-decoration:none;
+}
+.bx_catalog_list_home.bx_green .bx_bt_button:hover  		{
+
+}
+}
+.bx_catalog_list_home.bx_green .bx_bt_button:active  		{
+
+}
+
+/* scu_detail_size */
+.bx_catalog_list_home.bx_green .bx_item_detail_size ul li .cnt  				{border: 1px solid #d35841}
+.bx_catalog_list_home.bx_green .bx_item_detail_size ul li:hover .cnt  			{border: 1px solid #a9331c}
+.bx_catalog_list_home.bx_green .bx_item_detail_size ul li:active .cnt,
+.bx_catalog_list_home.bx_green .bx_item_detail_size ul li.bx_active .cnt  		{border: 2px solid #a9331c}
+
+.bx-retina .bx_catalog_list_home.bx_green .bx_item_detail_size ul li.bx_active .cnt{
+	-webkit-border-image: url(images/x2border_active.png) 2 stretch;
+	-moz-border-image: url(images/x2border_active.png) 2 stretch;
+	-o-border-image: url(images/x2border_active.png) 2 stretch;
+	border-image: url(images/x2border_active.png) 2 fill stretch;
+}
+
+/* scu_detail_scu */
+.bx_catalog_list_home.bx_green .bx_item_detail_scu .bx_scu ul li .cnt  				 	{border: 1px solid #d35841}
+.bx_catalog_list_home.bx_green .bx_item_detail_scu .bx_scu ul li:hover .cnt				{border: 1px solid #a9331c}
+.bx_catalog_list_home.bx_green .bx_item_detail_scu .bx_scu ul li:active .cnt,
+.bx_catalog_list_home.bx_green .bx_item_detail_scu .bx_scu ul li.bx_active .cnt			{border: 2px solid #a9331c}
+
+.bx-retina .bx_catalog_list_home.bx_green .bx_item_detail_scu .bx_scu ul li.bx_active .cnt{
+	-webkit-border-image: url(images/x2border_active.png) 2 stretch;
+	-moz-border-image: url(images/x2border_active.png) 2 stretch;
+	-o-border-image: url(images/x2border_active.png) 2 stretch;
+	border-image: url(images/x2border_active.png) 2 fill stretch;
+}
+.bx_catalog_item_price{
+font-size:20px;
+
+
+}
+.bx_catalog_item_title a{
+font-size:16px;
+font-weight:normal;
+font-size:14px;
+    position: relative;
+    table-layout: auto;
+    white-space: pre;           /* CSS 2.0 */
+    white-space: pre-wrap;      /* CSS 2.1 */
+    white-space: pre-line;      /* CSS 3.0 */
+    white-space: -pre-wrap;     /* Opera 4-6 */
+    white-space: -o-pre-wrap;   /* Opera 7 */
+    white-space: -moz-pre-wrap; /* Mozilla */
+    white-space: -hp-pre-wrap;  /* HP Printers */
+    word-wrap: break-word;     /* IE 5+ */
+    -ms-word-break: break-all;
+    -ms-word-wrap: break-word;
+
+
+}
+.nal{font-size:14px;}
+.bx_soc_comments_div.bx_important.bx_green .bx_bt_button  {
+font-weight:normal;}

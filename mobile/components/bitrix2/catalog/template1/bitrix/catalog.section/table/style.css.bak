@@ -1,0 +1,23 @@
+.bx_catalog_list_home .bx_catalog_item_images_double {
+  
+  display: block;
+  padding-top: 90%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+.foto_tovar{
+width:200px; 
+height:200px;
+float:left;
+
+}
+.col2_aopen {width:378px;float:left; padding:0 20px;}
+.col3_aopen{width:200px;float:right;padding:0 10px;}
+.bx_catalog_list_home .bx_catalog_item_container{
+padding-top:20px;
+width:888px;}
+.bx_catalog_item_title a{font-size:18px; color:#2954b0; text-decoration:underline;}
+
