@@ -13,7 +13,7 @@ case 2020: $id_user=60;$admp=1; break;
 case 1888: $id_user=28;$admp=1; break;
 case 2394: $id_user=87;$admp=1; break;
  default: $id_user=42;	break;
- echo test;
+ echo test12;
 }
  
  $curpage=$APPLICATION->GetCurPage(true);
