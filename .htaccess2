@@ -49,3 +49,4 @@ RewriteRule (.*) http://www.auto-open.ru/$1 [R=301,L]
 #SSPIAuthoritative On
 #SSPIOfferBasic On
 #Require valid-user
+тест не отвечатьтест не отвечатьтест не отвечатьтест не отвечать
